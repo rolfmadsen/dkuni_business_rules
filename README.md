@@ -1,7 +1,6 @@
 # Universitetsloven DMN Modeller
 
-Dette repository indeholder en fuldstændig dokumentation af Universitetsloven ved hjælp af Decision Model and Notation (DMN) og aktivitetsdiagrammer i PlantUML. Formålet er at skabe en struktureret og klar repræsentation af de forretningsregler, der styrer universitetets drift, for at understøtte procesoptimering, applikationsintegrationer og sikre overholdelse af lovgivningen.
-
+Formålet med dette dokument er at præsentere en fuldstændig AI-genereret (ChatGPT o1-Preview) dokumentation af [Bekendtgørelse af lov om universiteter (universitetsloven)](https://www.retsinformation.dk/eli/lta/2019/778) ved hjælp af [Decision Model and Notation (DMN)](https://www.omg.org/dmn/). Ved at modellere lovens bestemmelser i DMN skaber vi en struktureret og klar repræsentation af de forretningsregler, der styrer universitetets drift. Dette vil understøtte vores arbejde med procesoptimering, applikationsintegrationer og sikre, at vi overholder lovgivningen i vores daglige aktiviteter.
 ## Indhold
 
 - **Dokumentation**: Tekster, der beskriver metoden, analysen og de udledte forretningsregler.
@@ -12,8 +11,6 @@ Dette repository indeholder en fuldstændig dokumentation af Universitetsloven v
 ## Struktur
 
 - `README.md`: Denne fil, der indeholder en oversigt over projektet.
-- `dokumentation/`: Indeholder den fulde dokumentation af Universitetsloven i DMN.
-- `beslutningstabeller/`: Indeholder beslutningstabellerne.
 - `diagrammer/`: Indeholder PlantUML-filerne og genererede diagrammer.
 - `LICENSE`: Licensfil for projektet.
 
@@ -24,8 +21,8 @@ Dette repository indeholder en fuldstændig dokumentation af Universitetsloven v
 
 ## Licens
 
-Dette projekt er licenseret under MIT-licensen. Se `LICENSE` for detaljer.
+Dette projekt er licenseret under GPL-3.0-licensen. Se `LICENSE` for detaljer.
 
 ## Kontakt
 
-Hvis du har spørgsmål eller forslag, er du velkommen til at kontakte projektets vedligeholdere.
+Hvis du har spørgsmål eller forslag, er du velkommen til at kontakte mig.
