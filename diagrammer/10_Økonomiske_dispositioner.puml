@@ -1,0 +1,20 @@
+@startuml Afsnit: §21 - Beslutning: Økonomiske dispositioner
+start
+:Er formål overholdt i den økonomiske disposition?;
+if (Ja) then (Ja)
+  :Er tilskudsbetingelser overholdt?;
+  if (Ja) then (Ja)
+    :Er der budgetmæssig dækning?;
+    if (Ja) then (Ja)
+      :**Beslutning: Disposition godkendt**;
+    else (Nej)
+      :**Beslutning: Disposition afvist (Ingen budgetdækning)**;
+    endif
+  else (Nej)
+    :**Beslutning: Disposition afvist (Tilskudsbetingelser ikke overholdt)**;
+  endif
+else (Nej)
+  :**Beslutning: Disposition afvist (Formål ikke overholdt)**;
+endif
+stop
+@enduml

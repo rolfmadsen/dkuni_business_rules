@@ -1,0 +1,20 @@
+@startuml Afsnit: §34 - Beslutning: Klagebehandling
+start
+:Er klage modtaget inden for klagefristen?;
+if (Ja) then (Ja)
+  :Vedrører klagen retlige spørgsmål?;
+  if (Ja) then (Ja)
+    :Er klagen tidligere behandlet?;
+    if (Ja) then (Ja)
+      :**Beslutning: Klage afvist - allerede behandlet**;
+    else (Nej)
+      :**Beslutning: Klage behandles**;
+    endif
+  else (Nej)
+    :**Beslutning: Klage afvises (Ikke retligt spørgsmål)**;
+  endif
+else (Nej)
+  :**Beslutning: Klage afvises (For sent indsendt)**;
+endif
+stop
+@enduml

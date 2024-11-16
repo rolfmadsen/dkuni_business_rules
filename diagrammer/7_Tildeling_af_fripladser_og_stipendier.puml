@@ -1,0 +1,25 @@
+@startuml Afsnit: §19, stk. 9-10 - Beslutning: Tildeling af fripladser og stipendier
+start
+:Er ansøger udenlandsk statsborger (uden for EU)?;
+if (Ja) then (Ja)
+  :Opfylder ansøger akademiske kvalifikationer?;
+  if (Ja) then (Ja)
+    :Er økonomiske behov dokumenteret?;
+    if (Ja) then (Ja)
+      :Er der ramme til rådighed (budget)?;
+      if (Ja) then (Ja)
+        :**Beslutning: Tildeling**;
+      else (Nej)
+        :**Beslutning: Afslag (Ingen midler)**;
+      endif
+    else (Nej)
+      :**Beslutning: Afslag (Økonomiske behov ikke dokumenteret)**;
+    endif
+  else (Nej)
+    :**Beslutning: Afslag (Akademiske krav ikke opfyldt)**;
+  endif
+else (Nej)
+  :**Beslutning: Ikke relevant (Dansk/EU-statsborger)**;
+endif
+stop
+@enduml

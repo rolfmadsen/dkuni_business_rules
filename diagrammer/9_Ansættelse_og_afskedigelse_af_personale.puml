@@ -1,0 +1,20 @@
+@startuml Afsnit: §29 - Beslutning: Ansættelse og afskedigelse af personale
+start
+:Opfylder kandidaten stillingskrav?;
+if (Ja) then (Ja)
+  :Er kandidatens kvalifikationer passende?;
+  if (Ja) then (Ja)
+    :Er overenskomst overholdt i tilbuddet?;
+    if (Ja) then (Ja)
+      :**Beslutning: Ansættelse**;
+    else (Nej)
+      :**Beslutning: Afslag (Overenskomst ikke overholdt)**;
+    endif
+  else (Nej)
+    :**Beslutning: Afslag (Manglende kvalifikationer)**;
+  endif
+else (Nej)
+  :**Beslutning: Afslag (Krav ikke opfyldt)**;
+endif
+stop
+@enduml

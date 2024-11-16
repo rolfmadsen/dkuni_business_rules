@@ -1,0 +1,30 @@
+@startuml Afsnit: §3, stk. 1-4 - Beslutning: Udbud af uddannelser
+start
+:Vurderer strategisk relevans;
+if (Strategisk relevans?) then (Ja)
+  :Vurderer fagligt grundlag;
+  if (Fagligt grundlag tilstrækkeligt?) then (Ja)
+    :Kontrollerer ressourcer til rådighed;
+    if (Ressourcer tilstrækkelige?) then (Ja)
+      :Har opnået kvalitetssikring?;
+      if (Ja) then (Ja)
+        :Har modtaget ministeriel godkendelse?;
+        if (Ja) then (Ja)
+          :**Beslutning: Udbud godkendt**;
+        else (Nej)
+          :**Beslutning: Udbud afvist**;
+        endif
+      else (Nej)
+        :**Beslutning: Udbud afvist**;
+      endif
+    else (Nej)
+      :**Beslutning: Udbud afvist**;
+    endif
+  else (Nej)
+    :**Beslutning: Udbud afvist**;
+  endif
+else (Nej)
+  :**Beslutning: Udbud afvist**;
+endif
+stop
+@enduml

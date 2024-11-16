@@ -1,0 +1,38 @@
+@startuml Afsnit: §26, stk- 1-9 Beslutning: Opkrævning af deltagerbetaling
+start
+:Bestem uddannelsestype (Heltid/Deltid/Ekstra aktivitet);
+if (Uddannelsestype = "Deltid") then (Ja)
+  :Er tilskud modtaget?;
+  if (Ja) then (Ja)
+    :Er statsborgerskab Dansk/EU?;
+    if (Ja) then (Ja)
+      :**Deltagerbetaling: Delvis betaling**;
+    else (Nej)
+      :**Deltagerbetaling: Fuld betaling**;
+    endif
+  else (Nej)
+    :**Deltagerbetaling: Fuld betaling**;
+  endif
+else (Nej)
+  if (Uddannelsestype = "Heltid") then (Ja)
+    :Er tilskud modtaget?;
+    if (Ja) then (Ja)
+      :Er statsborgerskab Dansk/EU?;
+      if (Ja) then (Ja)
+        :**Deltagerbetaling: Ingen betaling**;
+      else (Nej)
+        :**Deltagerbetaling: Fuld betaling**;
+      endif
+    else (Nej)
+      :**Deltagerbetaling: Fuld betaling**;
+    endif
+  else (Nej)
+    if (Uddannelsestype = "Ekstra aktivitet") then (Ja)
+      :**Deltagerbetaling: Ingen betaling**;
+    else (Nej)
+      :**Deltagerbetaling: Ukendt uddannelsestype**;
+    endif
+  endif
+endif
+stop
+@enduml

@@ -1,0 +1,20 @@
+@startuml Afsnit: §3a, stk. 1-6 - Beslutning: Udbud af uddannelser i udlandet
+start
+:Eksisterer der en samarbejdsaftale med udenlandsk universitet?;
+if (Ja) then (Ja)
+  :Er kvalitetssikring opnået i henhold til danske standarder?;
+  if (Ja) then (Ja)
+    :Er juridiske krav opfyldt?;
+    if (Ja) then (Ja)
+      :**Beslutning: Godkendt til udbud i udlandet**;
+    else (Nej)
+      :**Beslutning: Afvist**;
+    endif
+  else (Nej)
+    :**Beslutning: Afvist**;
+  endif
+else (Nej)
+  :**Beslutning: Afvist**;
+endif
+stop
+@enduml

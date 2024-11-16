@@ -1,0 +1,15 @@
+@startuml Afsnit: §3, stk 1 - Beslutning: Kvalitetssikring af uddannelser
+start
+:Er akkrediteringsrapport positiv?;
+if (Ja) then (Ja)
+  :Er kvalitetsstandarder opfyldt?;
+  if (Ja) then (Ja)
+    :**Beslutning: Godkendt**;
+  else (Nej)
+    :**Beslutning: Ikke godkendt**;
+  endif
+else (Nej)
+  :**Beslutning: Ikke godkendt**;
+endif
+stop
+@enduml
