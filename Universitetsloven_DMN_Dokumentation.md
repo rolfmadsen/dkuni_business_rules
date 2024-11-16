@@ -2,7 +2,7 @@
 
 ## **Indledning**
 
-Formålet med dette dokument er at præsentere en fuldstændig dokumentation af Universitetsloven ved hjælp af Decision Model and Notation (DMN). Ved at modellere lovens bestemmelser i DMN skaber vi en struktureret og klar repræsentation af de forretningsregler, der styrer universitetets drift. Dette vil understøtte vores arbejde med procesoptimering, applikationsintegrationer og sikre, at vi overholder lovgivningen i vores daglige aktiviteter.
+Formålet med dette dokument er at præsentere en fuldstændig AI-genereret (ChatGPT o1-Preview) dokumentation af [Bekendtgørelse af lov om universiteter (universitetsloven)](https://www.retsinformation.dk/eli/lta/2019/778) ved hjælp af [Decision Model and Notation (DMN)](https://www.omg.org/dmn/). Ved at modellere lovens bestemmelser i DMN skaber vi en struktureret og klar repræsentation af de forretningsregler, der styrer universitetets drift. Dette vil understøtte vores arbejde med procesoptimering, applikationsintegrationer og sikre, at vi overholder lovgivningen i vores daglige aktiviteter.
 
 ## **Formål med at bruge DMN**
 
@@ -43,7 +43,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Udbud godkendt", "Udbud afvist")
   
-**Hit Policy**: **U** (Unique) – Kun én regel kan gælde.
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -73,7 +73,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Optaget", "Afvist")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -100,7 +100,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Godkendt", "Ikke godkendt")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -126,7 +126,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Godkendt", "Afvist")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -153,7 +153,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Godkendt", "Afvist")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -180,7 +180,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Deltagerbetaling** (`deltagerbetaling`): String ("Ingen betaling", "Delvis betaling", "Fuld betaling")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -208,7 +208,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Tildeling", "Afslag", "Ikke relevant")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -235,7 +235,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Klage behandles", "Klage afvises", "Klage afvist - allerede behandlet")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -262,7 +262,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Ansættelse", "Afslag")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -289,7 +289,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 - **Output**:
   - **Beslutning** (`beslutning`): String ("Godkendt", "Afvist")
   
-**Hit Policy**: **U** (Unique)
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 **Beslutningstabel**:
 
@@ -313,13 +313,11 @@ For at integrere disse DMN-modeller i vores systemer skal vi:
 
 Ved at dokumentere Universitetsloven i DMN opnår vi en klar og struktureret forståelse af de forretningsregler, der styrer vores aktiviteter. Dette vil forbedre vores evne til at overholde lovgivningen, optimere processer og understøtte vores strategiske mål.
 
-Vi anbefaler derfor, at universitetet implementerer DMN som en standard for dokumentation og implementering af forretningsregler.
-
 ## **Bilag**
 
-**DMN-diagrammer**: De fulde DMN-diagrammer for hver beslutning er vedlagt som bilag til dette dokument.
+**PlantUML Aktivitetsdiagrammer**: De fulde PlantUML Aktivitetsdiagrammer for hvert afsnit er vedlagt som bilag til dette dokument.
 
 **Referencer**:
 
-- **Universitetsloven**: Bekendtgørelse af lov om universiteter.
-- **DMN-specifikation**: OMG Decision Model and Notation (DMN), Version 1.6.
+- **Universitetsloven**: [Bekendtgørelse af lov om universiteter (universitetsloven)](https://www.retsinformation.dk/eli/lta/2019/778) .
+- **DMN-specifikation**: [Decision Model and Notation (DMN)](https://www.omg.org/dmn/), Version 1.6.
