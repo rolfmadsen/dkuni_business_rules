@@ -3,9 +3,9 @@
 Formålet med dette dokument er at præsentere en fuldstændig AI-genereret (ChatGPT o1-Preview) dokumentation af [Bekendtgørelse af lov om universiteter (universitetsloven)](https://www.retsinformation.dk/eli/lta/2019/778) ved hjælp af [Decision Model and Notation (DMN)](https://www.omg.org/dmn/). Ved at modellere lovens bestemmelser i DMN skaber vi en struktureret og klar repræsentation af de forretningsregler, der styrer universitetets drift. Dette vil understøtte vores arbejde med procesoptimering, applikationsintegrationer og sikre, at vi overholder lovgivningen i vores daglige aktiviteter.
 ## Indhold
 
-- **Dokumentation**: Tekster, der beskriver metoden, analysen og de udledte forretningsregler.
+- **Dokumentation**: Metoden og dokumentation af de udledte forretningsregler fra Universitetsloven findes i [Implementering af Decision Model and Notation (DMN) for Universitetsloven](Universitetsloven_DMN_Dokumentation.md).
 - **Beslutningstabeller**: DMN-beslutningstabeller i markdown-format.
-- **PlantUML-diagrammer**: Aktivitetsdiagrammer, der repræsenterer beslutningsprocesserne.
+- **PlantUML-diagrammer**: [Aktivitetsdiagrammer, der repræsenterer beslutningsprocesserne](diagrammer/).
 - **Kildekode**: PlantUML-filer (.puml) for hvert diagram.
 
 ## Struktur
