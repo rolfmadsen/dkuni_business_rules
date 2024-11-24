@@ -200,7 +200,7 @@ Universitetet skal beslutte, om en ansøger kan optages på en uddannelse, baser
 | 4         | Ja                   | Ja eller Ikke relevant   | Nej                       | -                      | Afslag         |
 | 5         | Ja                   | Ja eller Ikke relevant   | Ja eller Ikke relevant    | Nej                    | Afslag         |
 
-*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -284,7 +284,7 @@ Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgi
 | 2         | Nej                          | -                             | Ikke godkendt    |
 | 3         | -                            | Nej                           | Ikke godkendt    |
 
-*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -352,7 +352,7 @@ Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde 
 | 3         | Ja                           | Nej                      | -                      | Afvist         |
 | 4         | Ja                           | Ja                       | Nej                    | Afvist         |
 
-*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
