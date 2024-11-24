@@ -48,7 +48,7 @@ Denne metode har sikret, at DMN-modellerne både er juridisk korrekte og praktis
 3. **Dokumentation af Universitetsloven i DMN**
 
     Alle relevante beslutninger er modelleret, og hver sektion indeholder:
-    - **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
+    **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
     - **Beskrivelse**: En præcis beskrivelse af beslutningen og dens kontekst.
     - **DMN-komponenter**: Definerede beslutninger, input, output og hit policies.
     - **Beslutningstabel**: Tydelige tabeller med regler og betingelser.
@@ -69,7 +69,7 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 
 ### **Beslutning: Udbud af uddannelser**
 
-#### **Lovhenvisning**: § 3, stk. 1-4
+**Lovhenvisning**: § 3, stk. 1-4
 
 #### **Beskrivelse**: 
 Universitetet træffer beslutning om udbud af forskningsbaserede uddannelser i Danmark og sikrer, at disse uddannelser er kvalitetssikrede og godkendt af ministeren før udbud.
@@ -86,9 +86,9 @@ Universitetet træffer beslutning om udbud af forskningsbaserede uddannelser i D
 - **Output**:
   - **Beslutning** (`beslutning`): Angiver, om udbuddet er godkendt eller afvist ("Udbud godkendt", "Udbud afvist").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `strategiskRelevans` | `fagligtGrundlag` | `ressourcerTilRådighed` | `kvalitetssikringOpnået` | `ministerielGodkendelse` | **Beslutning**      |
 |-----------|----------------------|-------------------|-------------------------|--------------------------|--------------------------|---------------------|
@@ -172,7 +172,7 @@ stop
 
 Beslutning: Optagelse af studerende på uddannelser
 
-#### **Lovhenvisning**: § 8, stk. 1-3
+**Lovhenvisning**: § 8, stk. 1-3
 
 #### **Beskrivelse**:
 Universitetet skal beslutte, om en ansøger kan optages på en uddannelse, baseret på opfyldelse af adgangskrav, eventuelle karakterkrav og adgangsprøver samt tilgængelig kapacitet, i overensstemmelse med ministerens regler.
@@ -188,9 +188,9 @@ Universitetet skal beslutte, om en ansøger kan optages på en uddannelse, baser
 - **Output**:
   - **Beslutning** (`beslutning`): "Optaget" eller "Afslag"
 
-#### **Hit Policy**: U (Unique)
 
 #### **Beslutningstabel**:
+**Hit Policy**: U (Unique)
 
 | **Regel** | `adgangskravOpfyldt` | `karakterkravOpfyldt`    | `adgangsprøveBestået`     | `kapacitetTilRådighed` | **Beslutning** |
 |-----------|----------------------|--------------------------|---------------------------|------------------------|----------------|
@@ -260,7 +260,7 @@ stop
 
 ### **Beslutning: Kvalitetssikring af uddannelser**
 
-#### **Lovhenvisning**: § 3, stk. 1
+**Lovhenvisning**: § 3, stk. 1
 
 #### **Beskrivelse**: 
 Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgivning, før de kan udbydes. Dette sikrer, at uddannelserne lever op til fastsatte kvalitetsstandarder og opfylder kravene i lov om akkreditering af videregående uddannelsesinstitutioner.
@@ -274,9 +274,9 @@ Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgi
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af kvalitetssikringsprocessen ("Godkendt", "Ikke godkendt").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `kvalitetsstandarderOpfyldt` | `akkrediteringsrapportPositiv` | **Beslutning**   |
 |-----------|------------------------------|-------------------------------|------------------|
@@ -326,7 +326,7 @@ stop
 
 ### **Beslutning: Udbud af uddannelser i udlandet**
 
-#### **Lovhenvisning**: § 3 a, stk. 1-6
+**Lovhenvisning**: § 3 a, stk. 1-6
 
 #### **Beskrivelse**: 
 Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde med udenlandske universiteter under visse betingelser. Dette kræver en gyldig samarbejdsaftale, kvalitetssikring og opfyldelse af juridiske krav.
@@ -341,9 +341,9 @@ Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde 
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af beslutningen ("Godkendt", "Afvist").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `samarbejdsaftaleEksisterer` | `kvalitetssikringOpnået` | `juridiskeKravOpfyldt` | **Beslutning** |
 |-----------|------------------------------|--------------------------|------------------------|----------------|
@@ -407,7 +407,7 @@ stop
 
 ### **Beslutning: Tilmelding til fag og prøver**
 
-#### **Lovhenvisning**: § 8, stk. 1-3
+**Lovhenvisning**: § 8, stk. 1-3
 
 #### **Beskrivelse**: 
 Studerende skal tilmeldes fag og prøver i overensstemmelse med uddannelsens studieordning og ministeriets regler. Universitetet skal sikre, at tilmeldingen opfylder alle krav, herunder studieaktivitetskrav, beståede forudsætningsfag og ECTS-begrænsninger.
@@ -422,9 +422,9 @@ Studerende skal tilmeldes fag og prøver i overensstemmelse med uddannelsens stu
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af tilmeldingsprocessen ("Godkendt", "Afvist").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `studieaktivitetskravOpfyldt` | `tidligereFagBestået` | `ectsBegrænsningerOverholdt` | **Beslutning** |
 |-----------|-------------------------------|-----------------------|------------------------------|----------------|
@@ -488,7 +488,7 @@ stop
 
 ### **Beslutning: Opkrævning af deltagerbetaling**
 
-#### **Lovhenvisning**: § 26, stk. 1-9
+**Lovhenvisning**: § 26, stk. 1-9
 
 #### **Beskrivelse**: 
 Universitetet skal opkræve deltagerbetaling for visse uddannelsesaktiviteter i overensstemmelse med loven. Dette omfatter bl.a. deltidsuddannelser, heltidsuddannelser uden tilskud, ekstra uddannelsesaktiviteter og uddannelser for udenlandske studerende uden krav på ligebehandling.
@@ -503,9 +503,9 @@ Universitetet skal opkræve deltagerbetaling for visse uddannelsesaktiviteter i 
 - **Output**:
   - **Deltagerbetaling** (`deltagerbetaling`): Betalingstype ("Ingen betaling", "Delvis betaling", "Fuld betaling").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `uddannelsestype`    | `tilskudModtaget` | `statsborgerskab` | **Deltagerbetaling** |
 |-----------|----------------------|-------------------|-------------------|----------------------|
@@ -600,7 +600,7 @@ stop
 
 ### **Beslutning: Tildeling af fripladser og stipendier**
 
-#### **Lovhenvisning**: § 19, stk. 9-10
+**Lovhenvisning**: § 19, stk. 9-10
 
 #### **Beskrivelse**: 
 Universitetet kan tildele fripladser og stipendier til visse udenlandske studerende inden for rammerne af finansloven og egne midler. Dette skal ske i overensstemmelse med ministerens regler og universitetets interne retningslinjer.
@@ -616,9 +616,9 @@ Universitetet kan tildele fripladser og stipendier til visse udenlandske studere
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af vurderingen ("Tildeling", "Afslag", "Ikke relevant").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `nationalitet`                         | `akademiskeKvalifikationerOpfyldt` | `økonomiskeBehovDokumenteret` | `rammeTilRådighed` | **Beslutning**  |
 |-----------|----------------------------------------|------------------------------------|-------------------------------|--------------------|-----------------|
@@ -696,7 +696,7 @@ stop
 
 ### **Beslutning: Klagebehandling**
 
-#### **Lovhenvisning**: § 34
+**Lovhenvisning**: § 34
 
 #### **Beskrivelse**: 
 Behandling af retlige spørgsmål ved universitetets afgørelser om studerendes forhold. Klager over retlige spørgsmål kan indbringes for ministeren efter regler fastsat af denne.
@@ -711,9 +711,9 @@ Behandling af retlige spørgsmål ved universitetets afgørelser om studerendes 
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af klagebehandlingen ("Klage behandles", "Klage afvises", "Klage afvist - allerede behandlet").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `klageRettidig` | `retligtSpørgsmål` | `tidligereBehandlet` | **Beslutning**                          |
 |-----------|-----------------|--------------------|----------------------|-----------------------------------------|
@@ -777,7 +777,7 @@ stop
 
 ### **Beslutning: Ansættelse og afskedigelse af personale**
 
-#### **Lovhenvisning**: § 29
+**Lovhenvisning**: § 29
 
 #### **Beskrivelse**: 
 Universitetet skal følge de fastsatte regler om løn- og ansættelsesvilkår for personale. Dette omfatter overholdelse af krav til ansættelse, kvalifikationer og gældende overenskomster.
@@ -792,9 +792,9 @@ Universitetet skal følge de fastsatte regler om løn- og ansættelsesvilkår fo
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af ansættelsesprocessen ("Ansættelse", "Afslag").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `kravOpfyldt` | `kvalifikationerPassende` | `overenskomstOverholdt` | **Beslutning** |
 |-----------|---------------|---------------------------|--------------------------|----------------|
@@ -858,7 +858,7 @@ stop
 
 ### **Beslutning: Økonomiske dispositioner**
 
-#### **Lovhenvisning**: § 21
+**Lovhenvisning**: § 21
 
 #### **Beskrivelse**: 
 Universitetet disponerer frit inden for sit formål ved anvendelse af tilskud, indtægter og kapital under ét, dog under overholdelse af tilskudsbetingelser og disponeringsregler. Økonomiske dispositioner skal være i overensstemmelse med loven og universitetets formål.
@@ -873,9 +873,9 @@ Universitetet disponerer frit inden for sit formål ved anvendelse af tilskud, i
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af vurderingen ("Godkendt", "Afvist").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `formålOverholdt` | `tilskudsbetingelserOverholdt` | `budgetDækning` | **Beslutning** |
 |-----------|-------------------|--------------------------------|-----------------|----------------|
@@ -939,7 +939,7 @@ stop
 
 ### **Beslutning: Merit og forhåndsmerit for uddannelseselementer**
 
-#### **Lovhenvisning**: § 8, stk. 4
+**Lovhenvisning**: § 8, stk. 4
 
 #### **Beskrivelse**: 
 Universitetet skal afgøre, om en studerende kan få merit for tidligere gennemførte uddannelseselementer fra andre uddannelser, og om forhåndsmerit kan gives for planlagte studieophold.
@@ -954,9 +954,9 @@ Universitetet skal afgøre, om en studerende kan få merit for tidligere gennemf
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af meritudværdelsen ("Merit godkendt", "Merit afvist").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `relevansAfUddannelseselement` | `niveauAfUddannelseselement` | `karakterOpnået` | **Beslutning**   |
 |-----------|-------------------------------|------------------------------|------------------|------------------|
@@ -1016,7 +1016,7 @@ stop
 
 ### **Beslutning: Udstedelse af eksamensbevis med udmærkelse**
 
-#### **Lovhenvisning**: § 8, stk. 2
+**Lovhenvisning**: § 8, stk. 2
 
 #### **Beskrivelse**: 
 Universitetet kan udstede eksamensbeviser, der påføres udmærkelser og anerkendelser til talentfulde studerende, der har deltaget i ekstra uddannelsesaktiviteter.
@@ -1030,9 +1030,9 @@ Universitetet kan udstede eksamensbeviser, der påføres udmærkelser og anerken
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af vurderingen ("Udmærkelse tildelt", "Ingen udmærkelse").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `ekstraAktivitetGennemført` | `højtFagligtNiveau` | **Beslutning**     |
 |-----------|-----------------------------|---------------------|--------------------|
@@ -1081,7 +1081,7 @@ stop
 
 ### **Beslutning: Vejledning til forsinkede studerende**
 
-#### **Lovhenvisning**: § 9, stk. 2
+**Lovhenvisning**: § 9, stk. 2
 
 #### **Beskrivelse**: 
 Universitetet har pligt til at tilbyde særlig vejledning til studerende, der er blevet forsinket i forhold til den normerede studietid, for at hjælpe dem med at fortsætte deres uddannelse.
@@ -1094,9 +1094,9 @@ Universitetet har pligt til at tilbyde særlig vejledning til studerende, der er
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af vurderingen ("Tilbyd vejledning", "Ingen handling").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `studietidsForsinkelse` | **Beslutning**   |
 |-----------|-------------------------|------------------|
@@ -1133,7 +1133,7 @@ stop
 
 ### **Beslutning: Udstedelse af advarsel ved manglende studieaktivitet**
 
-#### **Lovhenvisning**: § 8, stk. 3
+**Lovhenvisning**: § 8, stk. 3
 
 #### **Beskrivelse**: 
 Universitetet skal fastsætte interne regler om studieaktivitetskrav og kan udstede advarsler til studerende, der ikke opfylder disse krav.
@@ -1146,9 +1146,9 @@ Universitetet skal fastsætte interne regler om studieaktivitetskrav og kan udst
 - **Output**:
   - **Beslutning** (`beslutning`): Resultatet af vurderingen ("Ingen advarsel", "Udsted advarsel").
 
-#### **Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 #### **Beslutningstabel**:
+**Hit Policy**: **U** (Unique) - Kun én regel kan gælde.
 
 | **Regel** | `studieaktivitetskravOpfyldt` | **Beslutning**     |
 |-----------|-------------------------------|--------------------|
