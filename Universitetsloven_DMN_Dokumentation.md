@@ -99,7 +99,7 @@ Universitetet træffer beslutning om udbud af forskningsbaserede uddannelser i D
 | 5         | -                    | -                 | -                       | Nej                      | -                        | Udbud afvist        |
 | 6         | -                    | -                 | -                       | -                        | Nej                      | Udbud afvist        |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -200,7 +200,7 @@ Universitetet skal beslutte, om en ansøger kan optages på en uddannelse, baser
 | 4         | Ja                   | Ja eller Ikke relevant   | Nej                       | -                      | Afslag         |
 | 5         | Ja                   | Ja eller Ikke relevant   | Ja eller Ikke relevant    | Nej                    | Afslag         |
 
-**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -284,7 +284,7 @@ Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgi
 | 2         | Nej                          | -                             | Ikke godkendt    |
 | 3         | -                            | Nej                           | Ikke godkendt    |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -352,7 +352,7 @@ Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde 
 | 3         | Ja                           | Nej                      | -                      | Afvist         |
 | 4         | Ja                           | Ja                       | Nej                    | Afvist         |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+*Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -433,7 +433,7 @@ Studerende skal tilmeldes fag og prøver i overensstemmelse med uddannelsens stu
 | 3         | -                             | Nej                   | -                            | Afvist         |
 | 4         | -                             | -                     | Nej                          | Afvist         |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -516,7 +516,7 @@ Universitetet skal opkræve deltagerbetaling for visse uddannelsesaktiviteter i 
 | 5         | Selvstuderende       | -                 | -                 | Fuld betaling        |
 | 6         | Alle                 | -                 | Ikke-EU           | Fuld betaling        |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -722,7 +722,7 @@ Behandling af retlige spørgsmål ved universitetets afgørelser om studerendes 
 | 3         | Ja              | Nej                | -                    | Klage afvises                           |
 | 4         | Ja              | Ja                 | Ja                   | Klage afvist - allerede behandlet       |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -803,7 +803,7 @@ Universitetet skal følge de fastsatte regler om løn- og ansættelsesvilkår fo
 | 3         | Ja            | Nej                       | -                        | Afslag         |
 | 4         | Ja            | Ja                        | Nej                      | Afslag         |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -884,7 +884,7 @@ Universitetet disponerer frit inden for sit formål ved anvendelse af tilskud, i
 | 3         | Ja                | Nej                            | -               | Afvist         |
 | 4         | Ja                | Ja                             | Nej             | Afvist         |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -965,7 +965,7 @@ Universitetet skal afgøre, om en studerende kan få merit for tidligere gennemf
 | 3         | Ja                            | Nej                          | -                | Merit afvist     |
 | 4         | Ja                            | Ja                           | Nej              | Merit afvist     |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
@@ -1040,7 +1040,7 @@ Universitetet kan udstede eksamensbeviser, der påføres udmærkelser og anerken
 | 2         | Nej                         | -                   | Ingen udmærkelse   |
 | 3         | Ja                          | Nej                 | Ingen udmærkelse   |
 
-#### **Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
+**Bemærkning**: "-" indikerer, at værdien er irrelevant for den pågældende regel.
 
 #### **PlantUML-diagram**:
 
