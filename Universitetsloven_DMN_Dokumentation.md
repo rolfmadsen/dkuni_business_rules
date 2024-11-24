@@ -20,9 +20,9 @@ For at dokumentere Universitetsloven i DMN har vi anvendt en iterativ og struktu
 2. **Udledning af beslutningskontekst**: For hver bestemmelse blev den forretningsmæssige kontekst analyseret for at fastslå formålet med beslutningen og dens betydning for universitetets aktiviteter.
 
 3. **Identifikation af beslutningselementer**:
-   - **Beslutninger**: Specificering af beslutninger, der skal træffes, og deres afhængigheder.
-   - **Input**: Identifikation af nødvendige data og forudsætninger for hver beslutning, med en klar kobling til de relevante paragraffer.
-   - **Output**: Definition af resultaterne af hver beslutning, såsom godkendelser, afvisninger eller særlige handlinger.
+   - Beslutninger: Specificering af beslutninger, der skal træffes, og deres afhængigheder.
+   - Input: Identifikation af nødvendige data og forudsætninger for hver beslutning, med en klar kobling til de relevante paragraffer.
+   - Output: Definition af resultaterne af hver beslutning, såsom godkendelser, afvisninger eller særlige handlinger.
 
 4. **Udarbejdelse af DMN-modeller**: 
    - Modellering af beslutningerne i overensstemmelse med DMN-standarden.
@@ -30,14 +30,14 @@ For at dokumentere Universitetsloven i DMN har vi anvendt en iterativ og struktu
    - Visualisering af beslutningsprocesserne med PlantUML for at illustrere workflows og sporbarhed.
 
     Alle relevante beslutninger er modelleret, og hver sektion indeholder:
-    - **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
-    - **Beskrivelse**: En præcis beskrivelse af beslutningen og dens kontekst.
-    - **DMN-komponenter**: Definerede beslutninger, input, output og hit policies.
-    - **Beslutningstabel**: Tydelige tabeller med regler og betingelser.
-    - **PlantUML-diagram**: Visuelle flowdiagrammer, der illustrerer beslutningsprocesserne.
-    - **Sporbarhed til Loven**: Forklaringer, der knytter beslutningselementerne direkte til lovens bestemmelser.
-    - **Bemærkninger**: Yderligere kontekst og overvejelser, der hjælper med at forstå beslutningerne.
-    - **Konsistens og Nøjagtighed**: Beslutningsmodellerne er konsistente på tværs af dokumentet, og der er en klar sammenhæng mellem lovgrundlag og de modellerede regler.
+    - Lovhenvisning: Klar angivelse af, hvilken paragraf i loven der adresseres.
+    - Beskrivelse: En præcis beskrivelse af beslutningen og dens kontekst.
+    - DMN-komponenter: Definerede beslutninger, input, output og hit policies.
+    - Beslutningstabel: Tydelige tabeller med regler og betingelser.
+    - PlantUML-diagram: Visuelle flowdiagrammer, der illustrerer beslutningsprocesserne.
+    - Sporbarhed til Loven: Forklaringer, der knytter beslutningselementerne direkte til lovens bestemmelser.
+    - Bemærkninger: Yderligere kontekst og overvejelser, der hjælper med at forstå beslutningerne.
+    - Konsistens og Nøjagtighed: Beslutningsmodellerne er konsistente på tværs af dokumentet, og der er en klar sammenhæng mellem lovgrundlag og de modellerede regler.
 
 5. **Validering og justering**:
    - Gennemgang af modellerne for at sikre, at de er i fuld overensstemmelse med lovens intentioner og praksis.
