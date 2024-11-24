@@ -71,7 +71,8 @@ Nedenfor præsenteres den fuldstændige dokumentation af Universitetsloven ved h
 
 #### **Lovhenvisning**: § 3, stk. 1-4
 
-#### **Beskrivelse**: Universitetet træffer beslutning om udbud af forskningsbaserede uddannelser i Danmark og sikrer, at disse uddannelser er kvalitetssikrede og godkendt af ministeren før udbud.
+#### **Beskrivelse**: 
+Universitetet træffer beslutning om udbud af forskningsbaserede uddannelser i Danmark og sikrer, at disse uddannelser er kvalitetssikrede og godkendt af ministeren før udbud.
 
 #### **DMN-komponenter**:
 
@@ -174,7 +175,6 @@ Beslutning: Optagelse af studerende på uddannelser
 #### **Lovhenvisning**: § 8, stk. 1-3
 
 #### **Beskrivelse**:
-
 Universitetet skal beslutte, om en ansøger kan optages på en uddannelse, baseret på opfyldelse af adgangskrav, eventuelle karakterkrav og adgangsprøver samt tilgængelig kapacitet, i overensstemmelse med ministerens regler.
 
 #### **DMN-komponenter**:
@@ -262,7 +262,8 @@ stop
 
 #### **Lovhenvisning**: § 3, stk. 1
 
-#### **Beskrivelse**: Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgivning, før de kan udbydes. Dette sikrer, at uddannelserne lever op til fastsatte kvalitetsstandarder og opfylder kravene i lov om akkreditering af videregående uddannelsesinstitutioner.
+#### **Beskrivelse**: 
+Uddannelserne skal kvalitetssikres og akkrediteres i henhold til gældende lovgivning, før de kan udbydes. Dette sikrer, at uddannelserne lever op til fastsatte kvalitetsstandarder og opfylder kravene i lov om akkreditering af videregående uddannelsesinstitutioner.
 
 #### **DMN-komponenter**:
 
@@ -327,7 +328,8 @@ stop
 
 #### **Lovhenvisning**: § 3 a, stk. 1-6
 
-#### **Beskrivelse**: Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde med udenlandske universiteter under visse betingelser. Dette kræver en gyldig samarbejdsaftale, kvalitetssikring og opfyldelse af juridiske krav.
+#### **Beskrivelse**: 
+Universitetet kan udbyde hele eller dele af uddannelser i udlandet i samarbejde med udenlandske universiteter under visse betingelser. Dette kræver en gyldig samarbejdsaftale, kvalitetssikring og opfyldelse af juridiske krav.
 
 #### **DMN-komponenter**:
 
@@ -407,7 +409,8 @@ stop
 
 #### **Lovhenvisning**: § 8, stk. 1-3
 
-#### **Beskrivelse**: Studerende skal tilmeldes fag og prøver i overensstemmelse med uddannelsens studieordning og ministeriets regler. Universitetet skal sikre, at tilmeldingen opfylder alle krav, herunder studieaktivitetskrav, beståede forudsætningsfag og ECTS-begrænsninger.
+#### **Beskrivelse**: 
+Studerende skal tilmeldes fag og prøver i overensstemmelse med uddannelsens studieordning og ministeriets regler. Universitetet skal sikre, at tilmeldingen opfylder alle krav, herunder studieaktivitetskrav, beståede forudsætningsfag og ECTS-begrænsninger.
 
 #### **DMN-komponenter**:
 
@@ -487,7 +490,8 @@ stop
 
 #### **Lovhenvisning**: § 26, stk. 1-9
 
-#### **Beskrivelse**: Universitetet skal opkræve deltagerbetaling for visse uddannelsesaktiviteter i overensstemmelse med loven. Dette omfatter bl.a. deltidsuddannelser, heltidsuddannelser uden tilskud, ekstra uddannelsesaktiviteter og uddannelser for udenlandske studerende uden krav på ligebehandling.
+#### **Beskrivelse**: 
+Universitetet skal opkræve deltagerbetaling for visse uddannelsesaktiviteter i overensstemmelse med loven. Dette omfatter bl.a. deltidsuddannelser, heltidsuddannelser uden tilskud, ekstra uddannelsesaktiviteter og uddannelser for udenlandske studerende uden krav på ligebehandling.
 
 #### **DMN-komponenter**:
 
@@ -598,7 +602,8 @@ stop
 
 #### **Lovhenvisning**: § 19, stk. 9-10
 
-#### **Beskrivelse**: Universitetet kan tildele fripladser og stipendier til visse udenlandske studerende inden for rammerne af finansloven og egne midler. Dette skal ske i overensstemmelse med ministerens regler og universitetets interne retningslinjer.
+#### **Beskrivelse**: 
+Universitetet kan tildele fripladser og stipendier til visse udenlandske studerende inden for rammerne af finansloven og egne midler. Dette skal ske i overensstemmelse med ministerens regler og universitetets interne retningslinjer.
 
 #### **DMN-komponenter**:
 
@@ -693,7 +698,8 @@ stop
 
 #### **Lovhenvisning**: § 34
 
-#### **Beskrivelse**: Behandling af retlige spørgsmål ved universitetets afgørelser om studerendes forhold. Klager over retlige spørgsmål kan indbringes for ministeren efter regler fastsat af denne.
+#### **Beskrivelse**: 
+Behandling af retlige spørgsmål ved universitetets afgørelser om studerendes forhold. Klager over retlige spørgsmål kan indbringes for ministeren efter regler fastsat af denne.
 
 #### **DMN-komponenter**:
 
@@ -773,7 +779,8 @@ stop
 
 #### **Lovhenvisning**: § 29
 
-#### **Beskrivelse**: Universitetet skal følge de fastsatte regler om løn- og ansættelsesvilkår for personale. Dette omfatter overholdelse af krav til ansættelse, kvalifikationer og gældende overenskomster.
+#### **Beskrivelse**: 
+Universitetet skal følge de fastsatte regler om løn- og ansættelsesvilkår for personale. Dette omfatter overholdelse af krav til ansættelse, kvalifikationer og gældende overenskomster.
 
 #### **DMN-komponenter**:
 
@@ -853,7 +860,8 @@ stop
 
 #### **Lovhenvisning**: § 21
 
-#### **Beskrivelse**: Universitetet disponerer frit inden for sit formål ved anvendelse af tilskud, indtægter og kapital under ét, dog under overholdelse af tilskudsbetingelser og disponeringsregler. Økonomiske dispositioner skal være i overensstemmelse med loven og universitetets formål.
+#### **Beskrivelse**: 
+Universitetet disponerer frit inden for sit formål ved anvendelse af tilskud, indtægter og kapital under ét, dog under overholdelse af tilskudsbetingelser og disponeringsregler. Økonomiske dispositioner skal være i overensstemmelse med loven og universitetets formål.
 
 #### **DMN-komponenter**:
 
@@ -933,7 +941,8 @@ stop
 
 #### **Lovhenvisning**: § 8, stk. 4
 
-#### **Beskrivelse**: Universitetet skal afgøre, om en studerende kan få merit for tidligere gennemførte uddannelseselementer fra andre uddannelser, og om forhåndsmerit kan gives for planlagte studieophold.
+#### **Beskrivelse**: 
+Universitetet skal afgøre, om en studerende kan få merit for tidligere gennemførte uddannelseselementer fra andre uddannelser, og om forhåndsmerit kan gives for planlagte studieophold.
 
 #### **DMN-komponenter**:
 
@@ -1009,7 +1018,8 @@ stop
 
 #### **Lovhenvisning**: § 8, stk. 2
 
-#### **Beskrivelse**: Universitetet kan udstede eksamensbeviser, der påføres udmærkelser og anerkendelser til talentfulde studerende, der har deltaget i ekstra uddannelsesaktiviteter.
+#### **Beskrivelse**: 
+Universitetet kan udstede eksamensbeviser, der påføres udmærkelser og anerkendelser til talentfulde studerende, der har deltaget i ekstra uddannelsesaktiviteter.
 
 #### **DMN-komponenter**:
 
@@ -1073,7 +1083,8 @@ stop
 
 #### **Lovhenvisning**: § 9, stk. 2
 
-#### **Beskrivelse**: Universitetet har pligt til at tilbyde særlig vejledning til studerende, der er blevet forsinket i forhold til den normerede studietid, for at hjælpe dem med at fortsætte deres uddannelse.
+#### **Beskrivelse**: 
+Universitetet har pligt til at tilbyde særlig vejledning til studerende, der er blevet forsinket i forhold til den normerede studietid, for at hjælpe dem med at fortsætte deres uddannelse.
 
 #### **DMN-komponenter**:
 
@@ -1124,7 +1135,8 @@ stop
 
 #### **Lovhenvisning**: § 8, stk. 3
 
-#### **Beskrivelse**: Universitetet skal fastsætte interne regler om studieaktivitetskrav og kan udstede advarsler til studerende, der ikke opfylder disse krav.
+#### **Beskrivelse**: 
+Universitetet skal fastsætte interne regler om studieaktivitetskrav og kan udstede advarsler til studerende, der ikke opfylder disse krav.
 
 #### **DMN-komponenter**:
 
