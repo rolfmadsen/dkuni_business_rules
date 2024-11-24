@@ -30,7 +30,7 @@ For at dokumentere Universitetsloven i DMN har vi anvendt en iterativ og struktu
    - Visualisering af beslutningsprocesserne med PlantUML for at illustrere workflows og sporbarhed.
 
     Alle relevante beslutninger er modelleret, og hver sektion indeholder:
-    **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
+    - **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
     - **Beskrivelse**: En præcis beskrivelse af beslutningen og dens kontekst.
     - **DMN-komponenter**: Definerede beslutninger, input, output og hit policies.
     - **Beslutningstabel**: Tydelige tabeller med regler og betingelser.
