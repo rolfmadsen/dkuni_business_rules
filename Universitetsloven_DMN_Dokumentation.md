@@ -29,6 +29,16 @@ For at dokumentere Universitetsloven i DMN har vi anvendt en iterativ og struktu
    - Udarbejdelse af beslutningstabeller, diagrammer og logik for at sikre entydige og konsistente beslutningsregler.
    - Visualisering af beslutningsprocesserne med PlantUML for at illustrere workflows og sporbarhed.
 
+    Alle relevante beslutninger er modelleret, og hver sektion indeholder:
+    **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
+    - **Beskrivelse**: En præcis beskrivelse af beslutningen og dens kontekst.
+    - **DMN-komponenter**: Definerede beslutninger, input, output og hit policies.
+    - **Beslutningstabel**: Tydelige tabeller med regler og betingelser.
+    - **PlantUML-diagram**: Visuelle flowdiagrammer, der illustrerer beslutningsprocesserne.
+    - **Sporbarhed til Loven**: Forklaringer, der knytter beslutningselementerne direkte til lovens bestemmelser.
+    - **Bemærkninger**: Yderligere kontekst og overvejelser, der hjælper med at forstå beslutningerne.
+    - **Konsistens og Nøjagtighed**: Beslutningsmodellerne er konsistente på tværs af dokumentet, og der er en klar sammenhæng mellem lovgrundlag og de modellerede regler.
+
 5. **Validering og justering**:
    - Gennemgang af modellerne for at sikre, at de er i fuld overensstemmelse med lovens intentioner og praksis.
    - Iterativ tilpasning baseret på feedback fra fagpersoner, der arbejder med lovens anvendelse i universitetssektoren.
@@ -40,28 +50,27 @@ Denne metode har sikret, at DMN-modellerne både er juridisk korrekte og praktis
 
 ## **Indholdsfortegnelse**
 
-1. **Indledning og Metode**
-    - **Klarhed og Struktur**: Indledningen giver en tydelig beskrivelse af dokumentets formål og anvendelsen af DMN til at modellere Universitetsloven.
-    - **Metodeafsnit**: Beskriver detaljeret den iterative proces, der er anvendt til at udvikle DMN-modellerne, hvilket styrker dokumentets troværdighed.
-2. **Indholdsfortegnelse**
-    - **Overskuelighed**: En detaljeret indholdsfortegnelse hjælper læseren med at navigere i dokumentet og finde relevante afsnit hurtigt.
-3. **Dokumentation af Universitetsloven i DMN**
-
-    Alle relevante beslutninger er modelleret, og hver sektion indeholder:
-    **Lovhenvisning**: Klar angivelse af, hvilken paragraf i loven der adresseres.
-    - **Beskrivelse**: En præcis beskrivelse af beslutningen og dens kontekst.
-    - **DMN-komponenter**: Definerede beslutninger, input, output og hit policies.
-    - **Beslutningstabel**: Tydelige tabeller med regler og betingelser.
-    - **PlantUML-diagram**: Visuelle flowdiagrammer, der illustrerer beslutningsprocesserne.
-    - **Sporbarhed til Loven**: Forklaringer, der knytter beslutningselementerne direkte til lovens bestemmelser.
-    - **Bemærkninger**: Yderligere kontekst og overvejelser, der hjælper med at forstå beslutningerne.
-    - **Konsistens og Nøjagtighed**: Beslutningsmodellerne er konsistente på tværs af dokumentet, og der er en klar sammenhæng mellem lovgrundlag og de modellerede regler.
-
-4. **Implementering i Applikationslandskabet**
-    - **Praktiske Anbefalinger**: Afsnittet giver konkrete trin til, hvordan DMN-modellerne kan integreres i universitetets IT-systemer og processer.
-    - **Fokus på Governance**: Betoner vigtigheden af løbende opdatering og vedligeholdelse af modellerne i overensstemmelse med lovændringer.
-5. **Konklusion**
-    - **Opsummering af Fordele**: Understreger de forbedringer i overholdelse af lovgivningen, procesoptimering og strategisk understøttelse, som dokumentationen medfører.
+1. **Indledning**
+    - Formål med at bruge DMN
+    - Metode
+1. **Indholdsfortegnelse**
+1. **Dokumentation af Universitetsloven i DMN**
+    - Beslutning: Udbud af uddannelser
+    - Beslutning: Optagelse af studerende på uddannelser
+    - Beslutning: Kvalitetssikring af uddannelser
+    - Beslutning: Udbud af uddannelser i udlandet
+    - Beslutning: Tilmelding til fag og prøver
+    - Beslutning: Opkrævning af deltagerbetaling
+    - Beslutning: Tildeling af fripladser og stipendier
+    - Beslutning: Klagebehandling
+    - Beslutning: Ansættelse og afskedigelse af personale
+    - Beslutning: Økonomiske dispositioner
+    - Beslutning: Merit og forhåndsmerit for uddannelseselementer
+    - Beslutning: Udstedelse af eksamensbevis med udmærkelse
+    - Beslutning: Vejledning til forsinkede studerende
+    - Beslutning: Udstedelse af advarsel ved manglende studieaktivitet
+1. **Implementering i Applikationslandskabet**
+1. **Konklusion**
 
 ## **Dokumentation af Universitetsloven i DMN**
 
