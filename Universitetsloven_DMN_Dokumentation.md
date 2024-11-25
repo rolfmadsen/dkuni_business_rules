@@ -1,4 +1,4 @@
-# **Universitetsloven i Praksis: Forretningsregler modelleret med Beslutningsmodeller og Notation (DMN)**
+# **Universitetsloven i Praksis: Forretningsregler modelleret med Decision Model and Notation (DMN)**
 
 ## **Indledning**
 
