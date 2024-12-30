@@ -179,7 +179,7 @@ stop
 
 - **Strategisk beslutning**: Universitetets bestyrelse har ansvaret for den overordnede strategiske ledelse, herunder beslutning om udbud af nye uddannelser.
 
-Beslutning: Optagelse af studerende på uddannelser
+### **Beslutning: Optagelse af studerende på uddannelser**
 
 **Lovhenvisning**: § 8, stk. 1-3
 
